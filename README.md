@@ -28,7 +28,7 @@ By the end of this course, you will be able to:
 
 ### 📋 Course Outline
 
-#### Module 1: Foundations
+#### Module 1: Foundations [CLICK HERE](/modules/module_1_foundations.ipynb)
 1. Introduction to Multi-Agent Systems
    - Understanding agent collaboration
    - Key concepts in swarm intelligence
