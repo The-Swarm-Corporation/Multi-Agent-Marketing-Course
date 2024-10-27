@@ -1,67 +1,179 @@
 [![Multi-Modality](agorabanner.png)](https://discord.com/servers/agora-999382051935506503)
 
-# Python Package Template
+# The Definitive Multi-Agent Marketing Course 
 
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
 
-A easy, reliable, fluid template for python packages complete with docs, testing suites, readme's, github workflows, linting and much much more
 
+This course teaches you how to leverage the Swarms framework to build sophisticated multi-agent systems for marketing automation, analysis, and optimization. Learn how to orchestrate multiple AI agents to handle complex marketing workflows across different channels and platforms.
 
-## Installation
+### 📚 Course Overview
 
-You can install the package using pip
+This hands-on course will teach you how to:
+- Build and deploy marketing-focused autonomous agents
+- Orchestrate multi-agent systems for marketing automation
+- Analyze marketing data using agent swarms
+- Optimize marketing campaigns using collaborative AI
+- Create scalable marketing workflows
 
+### 🎯 Learning Objectives
+
+By the end of this course, you will be able to:
+- Understand multi-agent architectures for marketing applications
+- Build custom marketing agents using the Swarms framework
+- Deploy agent swarms for social media management
+- Create automated content generation pipelines
+- Implement marketing analytics workflows
+- Develop autonomous campaign optimization systems
+
+### 📋 Course Outline
+
+#### Module 1: Foundations
+1. Introduction to Multi-Agent Systems
+   - Understanding agent collaboration
+   - Key concepts in swarm intelligence
+   - Marketing applications of multi-agent systems
+
+2. Setting Up Your Environment
+   - Installing Swarms
+   - Configuring API keys
+   - Basic agent creation
+
+#### Module 2: Building Marketing Agents
+1. Social Media Agents
+   - Creating platform-specific agents
+   - Implementing posting strategies
+   - Engagement analysis
+
+2. Content Generation Agents
+   - Copy generation workflows
+   - Multi-modal content creation
+   - Content optimization agents
+
+3. Analytics Agents
+   - Data collection agents
+   - Metrics analysis
+   - Reporting automation
+
+#### Module 3: Multi-Agent Architectures
+1. Sequential Workflows
+   - Content creation pipelines
+   - Approval workflows
+   - Distribution chains
+
+2. Concurrent Processing
+   - Parallel content generation
+   - Multi-channel posting
+   - Distributed analytics
+
+3. Agent Rearrange Patterns
+   - Dynamic workflow optimization
+   - Adaptive campaign management
+   - A/B testing automation
+
+#### Module 4: Advanced Applications
+1. Campaign Optimization
+   - Performance monitoring agents
+   - Budget allocation systems
+   - Automated A/B testing
+
+2. Customer Intelligence
+   - Sentiment analysis swarms
+   - Competitive monitoring
+   - Trend detection
+
+3. Automated Reporting
+   - Data aggregation workflows
+   - Visualization agents
+   - Report generation systems
+
+### 💻 Practical Projects
+
+1. **Social Media Management System**
+   - Build a multi-agent system for managing multiple social media accounts
+   - Implement content scheduling and optimization
+   - Create engagement monitoring and response systems
+
+2. **Content Generation Pipeline**
+   - Develop automated content creation workflows
+   - Implement multi-stage review processes
+   - Create distribution automation
+
+3. **Marketing Analytics Dashboard**
+   - Build data collection and analysis agents
+   - Create automated reporting systems
+   - Implement performance optimization agents
+
+### 🛠️ Technical Requirements
+
+- Python 3.10 or higher
+- Swarms library (`pip install -U swarms`)
+- OpenAI API key
+- Anthropic API key (optional)
+- Social media API access tokens
+
+### 📦 Getting Started
+
+1. Clone the course repository:
 ```bash
-pip install -e .
+git clone https://github.com/yourusername/marketing-swarms-course
+cd marketing-swarms-course
 ```
 
-# Usage
-```python
-print("hello world")
-
+2. Install requirements:
+```bash
+pip install -r requirements.txt
 ```
 
-
-
-### Code Quality 🧹
-
-- `make style` to format the code
-- `make check_code_quality` to check code quality (PEP8 basically)
-- `black .`
-- `ruff . --fix`
-
-### Tests 🧪
-
-[`pytests`](https://docs.pytest.org/en/7.1.x/) is used to run our tests.
-
-### Publish on PyPi 🚀
-
-**Important**: Before publishing, edit `__version__` in [src/__init__](/src/__init__.py) to match the wanted new version.
-
-```
-poetry build
-poetry publish
+3. Set up your environment variables:
+```bash
+export OPENAI_API_KEY="your-api-key"
+export ANTHROPIC_API_KEY="your-api-key"
 ```
 
-### CI/CD 🤖
+### 🎓 Prerequisites
 
-We use [GitHub actions](https://github.com/features/actions) to automatically run tests and check code quality when a new PR is done on `main`.
+- Basic Python programming knowledge
+- Understanding of marketing concepts
+- Familiarity with APIs and web services
 
-On any pull request, we will check the code quality and tests.
+### 📚 Resources
 
-When a new release is created, we will try to push the new code to PyPi. We use [`twine`](https://twine.readthedocs.io/en/stable/) to make our life easier. 
+- [Swarms Documentation](https://docs.swarms.world)
+- [Marketing Agents Examples](https://github.com/The-Swarm-Corporation/swarms-examples)
+- [Community Discord](https://discord.gg/kS3rwKs3ZC)
 
-The **correct steps** to create a new realease are the following:
-- edit `__version__` in [src/__init__](/src/__init__.py) to match the wanted new version.
-- create a new [`tag`](https://git-scm.com/docs/git-tag) with the release name, e.g. `git tag v0.0.1 && git push origin v0.0.1` or from the GitHub UI.
-- create a new release from GitHub UI
+### 👥 Community Support
 
-The CI will run when you create the new release.
+- Join our [Discord community](https://discord.gg/kS3rwKs3ZC) for real-time support
+- Participate in weekly office hours
+- Share your projects and get feedback from peers
 
-# Docs
-We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs.
+### 📝 Assessment
 
+- Weekly coding assignments
+- Two mini-projects
+- Final capstone project
+- Peer reviews and feedback
 
+### 🏆 Certification
 
-# License
-MIT
+Upon completion of all course requirements, you will receive:
+- A certificate of completion
+- Portfolio-ready projects
+- Access to the alumni network
+
+### 📅 Course Schedule
+
+- Duration: 8 weeks
+- Weekly live sessions: 2 hours
+- Office hours: 1 hour per week
+- Estimated study time: 10-15 hours per week
+
+### 🤝 Contributing
+
+We welcome contributions to improve the course materials. Please see our [contributing guidelines](CONTRIBUTING.md) for more information.
+
+### 📄 License
+
+This course is licensed under the GNU Affero General Public License v3.0.
