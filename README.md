@@ -38,7 +38,7 @@ By the end of this course, you will be able to:
    - Configuring API keys
    - Basic agent creation
 
-#### Module 2: Building Marketing Agents
+#### Module 2: Building Marketing Agents [CLICK HERE](/modules/module_2_specialized_agents.ipynb)
 1. Social Media Agents
    - Creating platform-specific agents
    - Implementing posting strategies
